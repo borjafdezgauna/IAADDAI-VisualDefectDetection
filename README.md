@@ -16,9 +16,9 @@ En MacOS no hace falta cambiar ninguna de las opciones por defecto. Bajamos el .
 
 3. Una vez instalada, abrimos un terminal y comprobamos qué versiones tenemos instaladas de python haciendo:
 
-    - En Windows: py -0p (un cero, no una letra O)
+    - En Windows: `py -0p` (un cero, no una letra O)
 
-    - En Linux/MacOS: which python3 o which python
+    - En Linux/MacOS: `which python3` o `which python`
 
 Si da error el comando, probamos a reiniciar el equipo y a ejecutarlo otra vez.
 
@@ -32,9 +32,9 @@ Si da error el comando, probamos a reiniciar el equipo y a ejecutarlo otra vez.
 
 6. Si tenéis una carpeta de entorno env de antes (porque ya habéis intentado crear el entorno virtual antes), la borráis.
 
-    - En Windows: rmdir env /S
+    - En Windows: `rmdir env /S`
 
-    - En Linux/MacOS: rm -rf env
+    - En Linux/MacOS: `rm -rf env`
 
 7. Y ahora volvemos a crear el entorno virtual pero usando la versión 3.10 de Python (sustituid mi path al ejecutable de python por el que habéis copiado vosotr@s):
 
@@ -42,12 +42,12 @@ Si da error el comando, probamos a reiniciar el equipo y a ejecutarlo otra vez.
 
 8. Activamos el entorno virtual
 
-    - En Windows: env\Scripts\activate
+    - En Windows: `env\Scripts\activate`
 
-    - En Linux/MacOS: source env/bin/activate
+    - En Linux/MacOS: `source env/bin/activate`
 
 9. Instalamos torch, torchvision y numpy:
 
-     python -m pip install torch numpy torchvision scikit-learn matplotlib seaborn
+     `python -m pip install torch numpy torchvision scikit-learn matplotlib seaborn`
 
 Si todo ha ido bien, tendremos ya un entorno virtual con Python 3.10 y Torch/Torchvision/Numpy
