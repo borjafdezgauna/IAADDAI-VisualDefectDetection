@@ -50,4 +50,5 @@ Si da error el comando, probamos a reiniciar el equipo y a ejecutarlo otra vez.
 
      `python -m pip install torch numpy torchvision scikit-learn matplotlib seaborn`
 
-Si todo ha ido bien, tendremos ya un entorno virtual con Python 3.10 y Torch/Torchvision/Numpy
+10. Si todo ha ido bien, tendremos ya un entorno virtual con Python 3.10 y Torch/Torchvision/Numpy. Ahora, solo nos falta establecerlo como el entorno del proyecto en VS Code:
+     `Python->Environment Managers->venv->env (3.10.11)->Set as Project Environment`

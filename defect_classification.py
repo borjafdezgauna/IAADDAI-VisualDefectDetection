@@ -36,7 +36,9 @@ def predict(model_path, image_path):
     
 
 def train_model(data_folder= "data/mvtec_anomaly_detection", subset_name= "leather"):
- 
+    import ssl
+    ssl._create_default_https_context= ssl._create_unverified_context
+    
     data_folder = os.path.join(data_folder, subset_name)
     
     batch_size = 10
