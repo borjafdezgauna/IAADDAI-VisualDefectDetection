@@ -38,7 +38,7 @@ Si da error el comando, probamos a reiniciar el equipo y a ejecutarlo otra vez.
 
 7. Y ahora volvemos a crear el entorno virtual pero usando la versión 3.10 de Python (sustituid mi path al ejecutable de python por el que habéis copiado vosotr@s):
 
-    C:\Users\bortx\AppData\Local\Programs\Python\Python310\python.exe -m venv env
+    `C:\Users\bortx\AppData\Local\Programs\Python\Python310\python.exe -m venv env`
 
 8. Activamos el entorno virtual
 
