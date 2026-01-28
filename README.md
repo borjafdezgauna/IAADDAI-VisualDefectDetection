@@ -4,7 +4,7 @@ Este proyecto usa Torch para crear/usar redes neuronales. Esta librería no es c
 
 Si ya habéis conseguido instalar torch, torchvision y numpy, no hace falta que hagáis nada. Esta guía es para quienes no lo hayan conseguido por un error con torch al intentar instalar torch.
 
-1. Lo primero es instalar la versión 3.10 de Python. Vamos a dejar la versión que teníamos de antes. Es normal tener varias versiones diferentes de Python. Podéis bajar la versión 3.10.11 de aqui´:
+1. Lo primero es instalar la versión 3.10 de Python. Vamos a dejar la versión que teníamos de antes. Es normal tener varias versiones diferentes de Python. Podéis bajar la versión 3.10.11 de aquí:
 
     - Windows: https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 

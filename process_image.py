@@ -54,4 +54,4 @@ if __name__ == '__main__':
     
     else:
         print("Unknown command. Valid commands are 'resize', 'rotate' and 'crop'")
-        print("Usage: python -m anomaly_detection [command]")
+        print("Usage: python -m process_image [command]")
